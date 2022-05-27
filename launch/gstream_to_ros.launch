@@ -1,5 +1,7 @@
 <launch>
 
+    <param name="rov_camera_port"  type="string"   value="5600"/>
+
     <node name="gstream_to_ros_node" pkg="blue_rov_streaming" type="gstream_to_ros.py" />
 
 </launch>

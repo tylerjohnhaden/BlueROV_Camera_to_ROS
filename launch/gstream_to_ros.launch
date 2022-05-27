@@ -1,0 +1,5 @@
+<launch>
+
+    <node name="gstream_to_ros_node" pkg="blue_rov_streaming" type="gstream_to_ros.py" />
+
+</launch>
